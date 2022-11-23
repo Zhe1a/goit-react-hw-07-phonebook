@@ -1,0 +1,11 @@
+ if (
+      contact.find(contact => contact.name.toLowerCase() === name.toLowerCase())
+    ) {
+      alert(`${name} is already in contacts.`);
+    } else if (
+      contact.find(
+        contact => contact.number.toLowerCase() === number.toLowerCase()
+      )
+    ) {
+      alert(`${number} is already in contacts.`);
+    } else {
