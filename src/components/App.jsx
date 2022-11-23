@@ -5,7 +5,7 @@ import ContactList from './ContactList';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 
-import { getError, getIsLoading, getTasks } from 'redux/selectors';
+import { getError, getIsLoading } from 'redux/selectors';
 import { contactsListApi } from 'redux/operations';
 
 function App() {
